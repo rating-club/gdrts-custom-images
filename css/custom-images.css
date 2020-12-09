@@ -1,0 +1,55 @@
+/* Star Alt. Set */
+.gdrts-with-image.gdrts-image-star-alt .gdrts-stars-empty,
+.gdrts-with-image.gdrts-image-star-alt .gdrts-stars-active,
+.gdrts-with-image.gdrts-image-star-alt .gdrts-stars-current {
+    background: url('images/stars_alt.png') repeat-x;
+    background-size: 40px;
+}
+
+.gdrts-badge-image.gdrts-image-star-alt .gdrts-badge-icon {
+    background: url('images/stars_alt.png') no-repeat center;
+}
+
+/* Oxygen Alt. Set */
+.gdrts-with-image.gdrts-image-oxygen-alt .gdrts-stars-empty,
+.gdrts-with-image.gdrts-image-oxygen-alt .gdrts-stars-active,
+.gdrts-with-image.gdrts-image-oxygen-alt .gdrts-stars-current {
+    background: url('images/oxygen_alt.png') repeat-x;
+    background-size: 40px;
+}
+
+.gdrts-badge-image.gdrts-image-oxygen-alt .gdrts-badge-icon {
+    background: url('images/oxygen_alt.png') no-repeat center;
+}
+
+/* Thumb Alt. Set */
+.gdrts-with-image.gdrts-image-thumb-alt .gdrts-thumb-image {
+    background: url('thumbs/thumb_alt.png') no-repeat;
+}
+
+/* Like Alt. Set */
+.gdrts-with-image.gdrts-image-like-alt .gdrts-like-image {
+    background: url('likes/like_alt.png') no-repeat;
+}
+
+/* Thumbs Proper Background Correction:
+   It is important to add this block at the end of the 
+   file where thumbs styles are defined */
+.gdrts-with-image .gdrts-thumb-up .gdrts-thumb-image {
+    background-position: left bottom;
+}
+
+.gdrts-with-image .gdrts-thumb-down .gdrts-thumb-image {
+    background-position: right bottom;
+}
+
+.gdrts-with-image .gdrts-thumb-up.gdrts-thumb-selected .gdrts-thumb-image,
+.gdrts-state-active:not(.gdrts-vote-saving).gdrts-with-image .gdrts-thumb-up:hover .gdrts-thumb-image {
+    background-position: left top;
+}
+
+.gdrts-with-image .gdrts-thumb-down.gdrts-thumb-selected .gdrts-thumb-image,
+.gdrts-state-active:not(.gdrts-vote-saving).gdrts-with-image .gdrts-thumb-down:hover .gdrts-thumb-image {
+    background-position: right top;
+}
+/* Thumbs Proper Background Correction */
